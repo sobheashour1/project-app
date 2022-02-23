@@ -12,7 +12,7 @@ class _ProfileScreenState extends State<MapScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("afsdsaf"),
+        child: Text("Maps"),
       ),
     );
   }

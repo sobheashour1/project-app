@@ -1,8 +1,9 @@
 
 import 'package:flutter/material.dart';
+import 'package:ui_app_vp8/screens/app/bn_screens/home_screen.dart';
 import 'package:ui_app_vp8/screens/app/bn_screens/map_screen.dart';
 import 'screens/app/bn_screens/categories_screen.dart';
-import 'screens/app/bn_screens/home_screen.dart';
+import 'screens/app/main_screen.dart';
 import 'screens/auth/create_account_screen.dart';
 import 'screens/auth/login_screen.dart';
 import 'screens/launch_screen.dart';
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
         '/out_boarding_screen': (context) => OutBoardingScreen(),
         '/login_screen': (context) => LoginScreen(),
         '/create_account_screen': (context) => CreateAccountScreen(),
-       '/home_screen': (context) => HomeScreen(),
+        '/main_screen': (context) => MainScreen(),
+        '/home_screen': (context) => HomeScreen(),
         '/categories_screen': (context) => CategoriesScreen(),
         '/map_screen': (context) => MapScreen(),
       },
